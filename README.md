@@ -9,20 +9,20 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v2.4.0-06B6D4?style=for-the-badge" alt="Version v2.4.0" />
+  <img src="https://img.shields.io/badge/Version-v2.4.5-06B6D4?style=for-the-badge" alt="Version v2.4.5" />
   <img src="https://img.shields.io/badge/Platform-Android%208.0%2B-10B981?style=for-the-badge&logo=android&logoColor=white" alt="Android 8.0+" />
   <img src="https://img.shields.io/badge/Trial-7--Day%20Free%20Trial-F59E0B?style=for-the-badge" alt="7-Day Free Trial" />
   <img src="https://img.shields.io/badge/Security-On--Device%20AES--GCM-8B5CF6?style=for-the-badge" alt="On-Device Security" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.0-arm64.apk">
-    <img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20APK%20(v2.4.0%20·%2022.6%20MB)-00C853?style=for-the-badge" alt="Download Market Pulse v2.4.0 APK" />
+  <a href="https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.5-arm64.apk">
+    <img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20APK%20(v2.4.5%20·%2022.7%20MB)-00C853?style=for-the-badge" alt="Download Market Pulse v2.4.5 APK" />
   </a>
 </p>
 
 <p align="center">
-  <sub>Recommended for 99% of Android phones (64-bit ARM). Using an older 32-bit phone? <a href="https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.0-arm32.apk">Download ARM32 APK (20.3 MB)</a></sub>
+  <sub>Recommended for 99% of Android phones (64-bit ARM). Using an older 32-bit phone? <a href="https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.5-arm32.apk">Download ARM32 APK (20.3 MB)</a></sub>
 </p>
 
 ---
@@ -101,7 +101,7 @@ Intraday F&O traders using Kotak Neo hit the same daily roadblocks:
 
 ## 🚀 Quick Start (4 Steps)
 
-1. **Download & Install** — Tap the green **Download APK (`v2.4.0`)** button above and allow installation from your browser/Files app.
+1. **Download & Install** — Tap the green **Download APK (`v2.4.5`)** button above and allow installation from your browser/Files app.
 2. **Activate 7-Day Free Trial** — Enter your Kotak Neo **Client Code (UCC)** and tap **`START 7-DAY FREE TRIAL`**.
 3. **Connect Kotak Neo API** — Enter your Kotak Neo Trade API **Access Token**, registered mobile, MPIN, and 6-digit TOTP.
 4. **Bind Static IP (for API Orders)** — Follow our 5-minute **AWS Free Tier Static IP Guide** so Kotak Neo accepts API orders seamlessly.
@@ -119,16 +119,16 @@ Intraday F&O traders using Kotak Neo hit the same daily roadblocks:
 | ☁️ **[AWS Static IP Setup Guide (Web)](docs/AWS_STATIC_IP_SETUP.md)** | Mobile-friendly step-by-step guide to spin up a free AWS EC2 Elastic IP + 1-click Nginx proxy in 5 minutes. |
 | 📄 **[AWS Static IP Setup Guide (PDF)](docs/AWS_Kotak_Static_IP_Setup_Guide.pdf)** | Clean 2-page printable/offline PDF guide (also bundled inside the app). |
 | 🛡️ **[Privacy Policy & Risk Disclaimer](docs/PRIVACY_AND_DISCLAIMER.md)** | How your data is encrypted, what is transmitted, and regulatory disclosures. |
-| 🆕 **[Release Notes (Changelog)](CHANGELOG.md)** | What's new in `v2.4.0`. |
+| 🆕 **[Release Notes (Changelog)](CHANGELOG.md)** | What's new in `v2.4.5`. |
 
 ---
 
-## 📦 Download & Verification (`v2.4.0`)
+## 📦 Download & Verification (`v2.4.5`)
 
 | Build | Architecture | Size | SHA-256 Checksum |
 | :--- | :--- | :---: | :--- |
-| **[MarketPulse-v2.4.0-arm64.apk](https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.0-arm64.apk)** *(Recommended)* | 64-bit ARM (`arm64-v8a`) | 22.62 MB | `4F753AAEFFE4BDA368919798E72F87320018B82DC592CF6F65625105E821707F` |
-| **[MarketPulse-v2.4.0-arm32.apk](https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.0-arm32.apk)** *(Legacy devices)* | 32-bit ARM (`armeabi-v7a`) | 20.28 MB | `1CAD5AC11D40C54007C8703D5C4450EFE6B7CB079B12563602705D44C5653D48` |
+| **[MarketPulse-v2.4.5-arm64.apk](https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.5-arm64.apk)** *(Recommended)* | 64-bit ARM (`arm64-v8a`) | 22.68 MB | `190C695CE69DC04169C8ADC80A53421B1C15EFF1EBA90DDE8A81C64401666865` |
+| **[MarketPulse-v2.4.5-arm32.apk](https://github.com/anivimorthala/Market_Pulse/raw/main/releases/MarketPulse-v2.4.5-arm32.apk)** *(Legacy devices)* | 32-bit ARM (`armeabi-v7a`) | 20.31 MB | `4723C5B69E5B8E39491A19C937F8EB9468C8B5147F6967A2C7CE433C83271E94` |
 
 > **Future Updates:** Once installed, Market Pulse checks for new versions automatically inside **Profile → App Updates** (with a live badge on your bottom bar when an update is ready).
 
