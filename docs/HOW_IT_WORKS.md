@@ -23,32 +23,30 @@ A complete tour of Market Pulse's core modules and on-device execution engine.
 
 ## 3. On-Device Algo Terminal (`ALGO`)
 
-Market Pulse runs an **on-device automation engine** right on your Android phone — your strategy rules and stops stay private on your device.
+Market Pulse runs an **on-device execution engine** right on your Android phone — your strategy rules and stops stay private on your device.
 
 ### Supported Automation Controls
-- **Entry Trigger:** Market (`CMP`) or Trigger/Limit entry price.
-- **Target & Initial Stoploss:** Automatic broker square-off the instant live LTP hits your Target or SL.
-- **Trailing Stoploss (TSL):** Configure **TSL Jump** and **Trail Step** so your SL ratchets upward automatically as price moves in your favor.
-- **Live Edit Mid-Trade:** Tap **`Edit Levels`** on any active or pending Algo card to adjust Target, SL, or TSL on the fly:
-  - **1-Tap `SL → Cost`:** Instantly moves your Stoploss to breakeven when in profit.
-  - **1-Tap `Lock 50%`:** Locks half of your current unrealized gain immediately.
-  - Built-in price guardrails prevent accidental instant triggers on BUY/SELL positions.
-- **Instant Manual Exit & Real Fill Sync:** Tap **`Instant Exit`** to square off immediately via Kotak API; Market Pulse verifies broker confirmation and syncs the exact executed fill price from your order book.
-- **Clean Day Summary:** Filter by **`All | Live | Closed`**, view Today's Algo Net P&L bar, and auto-clear prior-day closed logs at midnight IST.
+- **Flexible Entry Modes:** Support for Market (CMP) and Limit/Trigger entries.
+- **Automated Target & Stoploss:** Automatic broker square-off when your target or stoploss conditions are met.
+- **Dynamic Trailing Stoploss (TSL):** Protect profits by dynamically trailing your stoploss as market price moves favorably.
+- **Mid-Trade Level Adjustments:** Modify your Target, Stoploss, or Trailing settings on any active trade without canceling the trade.
+- **Quick Profit Protection:** 1-tap chips to lock in gains or move stoploss to breakeven during active trades.
+- **1-Tap Manual Exit:** Instantly square off open positions at market CMP with verified broker fill sync.
+- **Trade History & Filtering:** View and filter trades by active, pending, or closed status with daily P&L tracking.
 
 ### 🛡️ Active Algo Background Guard
-- Enabled by default under **Profile → Notifications → Active Algo Background Guard**.
-- Whenever an Algo is actively running, Market Pulse holds an Android Foreground Service (`⚡ Active Algo · Monitoring Live`) so Android **never freezes your live quotes or Target/SL checks** while you switch apps or lock your screen.
-- The moment your last active Algo finishes, the persistent bar **disappears automatically**.
+- Enabled under **Profile → Notifications → Active Algo Background Guard**.
+- Protects active trade execution in the background so trade management continues uninterrupted when switching apps or locking your phone.
+- Automatically dismisses when all active trades are closed.
 
 ---
 
 ## 4. Modular Indicators (`INDICATORS`)
 
-Enable the **Indicators** slot in **Profile → Plugins & Modules** to access lightweight, on-device analytical tools:
+Enable the **Indicators** slot in **Profile → Plugins & Modules** to access on-device analytical tools:
 
-- **Order Book Imbalance (OBI):** Live Buy vs. Sell depth pressure ratio and quantity bar across your watchlisted instruments — helping you gauge immediate order-flow bias without leaving the terminal.
-- **Modular Plugin Architecture:** Toggle features on or off anytime so your bottom navigation bar stays clean and tailored to your trading style.
+- **Order Book Imbalance (OBI):** Visual market depth indicator showing real-time buy and sell pressure across watchlisted contracts.
+- **Modular Plugin Architecture:** Toggle analytical modules on or off anytime to keep your interface clean and customized to your workflow.
 
 ---
 

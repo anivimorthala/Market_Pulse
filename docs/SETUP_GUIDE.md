@@ -6,7 +6,7 @@ Get from download to live trading in under 5 minutes.
 
 ## Step 1: Download & Install the APK
 
-1. Download **`MarketPulse-v2.4.0-arm64.apk`** from the [main page](../README.md) *(or the `arm32` build if you are on an older 32-bit Android device)*.
+1. Download **`MarketPulse-v2.4.5-arm64.apk`** from the [main page](../README.md) *(or the `arm32` build if you are on an older 32-bit Android device)*.
 2. Tap the downloaded APK file in your browser or **Files** app.
 3. If Android prompts **"Install unknown apps"**, tap **Settings → Allow from this source**, then tap **Install**.
 4. Open **Market Pulse** and allow **Notifications** when prompted so you receive instant order execution and Target/SL alerts.
