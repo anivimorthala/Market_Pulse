@@ -2,24 +2,11 @@
 
 ## `v2.4.5` — Public Release
 
-### ✨ New Features & Portfolio Upgrades
-- **Direct Holdings 1-Tap Exit & Order Pad:**
-  - Demat Holdings are now fully interactive: tap to open the order pad pre-filled with `CNC`, `SELL`, and current available quantity, or tap `[EXIT]` for instant market order execution.
-  - Partial exits supported: choose any quantity up to your available holdings.
-- **Cross-Tab Portfolio Reconciliation (Holdings ↔ Positions):**
-  - Real-time intra-day synchronization between Demat holdings and trade positions before 4:30 PM depository settlement.
-  - Demat equity sold today in `CNC` is identified as a delivery sale, tagged `CNC · DELIVERY SOLD`, dimmed to `0.45` opacity, and given a disabled `[DELIVERY SOLD]` status.
-  - **Shielded Square Off All:** Demat delivery sales are strictly excluded from `SQUARE OFF ALL` to prevent accidental buybacks of exited holdings.
-  - **Accurate Holdings Availability:** Holdings cards dynamically show remaining available shares (`Qty: 90 (10 sold)`) and switch to `[SOLD OUT]` with disabled tap when 100% sold out today.
-  - **Uncovered & Active Shorts Untouched:** Naked CNC shorts, Intraday `MIS` shorts, and F&O shorts remain active open trades with 1-tap `[EXIT (BUY)]` cover buttons.
-- **Profile P&L Segregation:**
-  - Dedicated separation of **`DAY P&L (TRADING)`** (today's active trading) and **`HOLDINGS P&L`** (all-time Demat equity valuation) under the Profile Portfolio summary.
-
-### 🛠️ Reliability & API Fixes
-- **Kotak Neo API Symbol Auto-Normalization:**
-  - Automatically appends `-EQ` on `nse_cm` (e.g. `YESBANK` → `YESBANK-EQ`) for orders placed from Holdings, permanently eliminating the Kotak Neo API `"please provide valid symbol"` rejection.
-- **Closed Positions Display Fix:**
-  - Closed F&O positions cleanly display `0 lots` (resolving the `-0 lots` minus sign display bug).
+### ✨ New Features & Improvements
+- **Holdings Quick Exit & Order Pad:** Added 1-tap exit and full order pad support for equity holdings, including custom exit quantities.
+- **Portfolio & Holdings Sync:** Improved real-time portfolio tracking and intra-day delivery settlement sync between Holdings and Positions.
+- **Dedicated Holdings P&L:** Clean separation between Day Trading P&L and Demat Holdings P&L in Profile.
+- **General Fixes:** Order placement stability improvements and minor display optimizations.
 
 ## `v2.4.0` — Public Release
 
